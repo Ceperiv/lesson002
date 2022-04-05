@@ -1,0 +1,54 @@
+* {
+    box-sizing: border-box;
+}
+
+html. body {
+    width: 100%;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Anek Gujarati', sans-serif;
+}
+
+.wrap {
+    width: 70%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+
+
+}
+.block {
+
+    width: 300px;
+    box-shadow: 8px 9px 10px -4px rgba(0, 0, 0, 0.85);
+    padding: 20px;
+}
+.block>p{
+    color: #333131;
+    font-size: small;
+
+}
+.block>i{
+    font-size: 2rem;
+    color: #989898;
+}
+h3{
+    color: #bd7546;
+}
+
+button {
+    width: 60%;
+    height: 35px;
+    background: #55c2b5;
+    color:white;
+    border: none;
+}
+
+
+

@@ -1,0 +1,49 @@
+* {
+    box-sizing: border-box;
+}
+
+html, body {
+    width: 100%;
+    min-height: 200px;
+}
+
+body, .wrap, .box, .block {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.wrap {
+    width: 80%;
+    min-height: 200px;
+    background: #06bcd4;
+    padding: 50px 20px;
+
+}
+
+.box {
+    width: 50%;
+    flex-direction: column;
+
+}
+
+.block {
+    width: 90%;
+    height: 200px;
+    background: white;
+    margin: 10px 0;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: justify;
+}
+
+h3 {
+    color: #f7a22f;
+    font-size: larger;
+}
+
+i {
+    font-size: 50px;
+    color: silver;
+    padding: 10px 40px;
+}

@@ -1,0 +1,55 @@
+* {
+    box-sizing: border-box;
+
+}
+
+html, body {
+    width: 100%;
+    min-height: 200px;
+    margin: 0;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.widget {
+    width: 500px;
+    height: 250px;
+    background: #2269ba;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+h2, h4 {
+    color: lightgrey;
+    font-family: 'Anek Gujarati', sans-serif;
+
+}
+
+.wrap {
+    display: flex;
+    width: 500px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.widgets {
+    display: flex;
+    background: #16457a;
+    width: 30%;
+    height: 200px;
+    text-align: center;
+    margin: 20px 0;
+    justify-content: center;
+    align-items: center;
+}
+.bottom{
+
+    height: 500px;
+}
